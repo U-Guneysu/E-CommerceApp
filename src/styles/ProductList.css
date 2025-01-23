@@ -1,0 +1,131 @@
+/* Arama kutusunu kapsayan konteynır */
+.products-search-container {
+  display: flex; /* Yatay hizalama için flexbox */
+  justify-content: center; /* Ortalamak için */
+  align-items: center;
+  gap: 10px; /* Kutular arasında boşluk */
+  margin: 20px auto;
+  padding: 10px;
+  width: 100%; /* Tam genişlik */
+  max-width: 600px; /* Maksimum genişlik */
+}
+  
+/* Arama kutusu */
+.search-input {
+  flex: 1; /* Kalan alanı doldurur */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+  
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+  
+/* Arama düğmesi */
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+  
+.search-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Hafif büyüme efekti */
+}
+  
+/* Arama sonuçları genel kaplama */
+.search-results-overlay {
+  position: fixed; /* Diğer nesnelerin yerini etkilemez */
+  top: 10%; /* Arama sonuçlarının ekranda görünme konumu */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; /* Tüm içeriklerin üstünde yer alır */
+  width: 80%; /* Arama sonuçlarının genişliği */
+  background-color: rgba(255, 255, 255, 0.9); /* Hafif şeffaf arka plan */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-height: 70vh; /* Çok fazla sonuç olursa kaydırma */
+  overflow-y: auto; /* Dikey kaydırma */
+}
+  
+/* Arama sonuçlarının düzeni */
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Esnek düzen */
+  gap: 10px; /* Kartlar arası boşluk */
+}
+  
+/* Kart düzeni */
+.search-result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+  
+.search-result-item:hover {
+  transform: translateY(+10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+  
+/* Resimler için nboyut */
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Ürün bilgileri */
+.product-info {
+  text-align: center;
+}
+
+.product-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.product-link:hover {
+  color: #0056b3;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Sonuç bulunamadı */
+.no-results {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  grid-column: 1 / -1; /* Tüm sütunları kaplar */
+}

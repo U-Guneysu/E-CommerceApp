@@ -1,0 +1,548 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Taze Patates",
+      "price": 15,
+      "description": "Mutfakların vazgeçilmez ürünleri arasında yer alan mini patates, kolay hazırlanma özelliği sayesinde pratik bir kullanım sağlıyor. Ürün yemeklere dahil edilerek kullanılabildiği gibi kızartma ya da püre şeklinde de kullanılabiliyor.",
+      "place": "-Nevşehir-",
+      "category": "Sebze",
+      "sell": "Patates",
+      "image": "https://images.migrosone.com/hemen/product/28293395/28293395-978baf.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Organik Domates",
+      "price": 20,
+      "description": "Son derece doğal ve ince kabuklu olan pembe domates, içerdiği A, C, E ve B vitaminleriyle vücudunuzun ihtiyaç duyduğu besin öğelerini karşılama konusunda önemli rol oynuyor. ",
+      "place": "-Antalya-",
+      "category": "Sebze",
+      "sell": "Domates",
+      "image": "https://images.migrosone.com/hemen/product/28080043/28080043-686ffa.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Salatalık",
+      "price": 12,
+      "description": "Sulu yapısı, tazecik, kütür kütür lezzetiyle sofraların vazgeçilmez sebzelerinden biri haline gelen Hıyar, mineral bakımından zengin olan yiyecekler arasındaki yerini almayı başarıyor. ",
+      "place": "-Antalya-",
+      "category": "Sebze",
+      "sell": "Salatalik",
+      "image": "https://images.migrosone.com/hemen/product/28137055/28137055-4aa292.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sivri Biber",
+      "price": 7,
+      "description": "Yemeklerin içinde, salatalarda, kahvaltılarda ve tek başına tüketebileceğiniz sivri biber, lezzetli ve yararlı bir sebze çeşididir. Âdeta C vitamini deposu olarak da değerli bir sebze türü olan sivri biber, söğüş salatalar ve kızartmaların da vazgeçilmez çeşitleri arasında yer alıyor. ",
+      "place": "-Urfa-",
+      "category": "Sebze",
+      "sell": "SivriBiber",
+      "image": "https://images.migrosone.com/hemen/product/28059181/28059181-1fd67d.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Elma Pink Lady",
+      "price": 12,
+      "description": "Orta boylu, pembe kabuklu bir elma türüdür. Kendine has aroması ile öğün aralarınıza dahil edebileceğiniz bir lezzettir. ",
+      "place": "-Isparta-",
+      "category": "Meyve",
+      "sell": "Elma",
+      "image": "https://images.migrosone.com/sanalmarket/product/27139136/elma-pink-lady-kg-8dc1a5-1650x1650.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Portakal",
+      "price": 12,
+      "description": "İçerisindeki yüksek C vitamini bağışıklık sistemini destekleyerek kış hastalıklarından korunmaya yardımcı olur. Yapısı orta sertlikte ve ağır olanların daha fazla suyu olur. ",
+      "place": "-Antalya-",
+      "category": "Meyve",
+      "sell": "Portakal",
+      "image": "https://images.migrosone.com/hemen/product/27307070/27307070-97eb24.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Muz Yerli",
+      "price": 25,
+      "description": "Muhteşem lezzetiyle günün her saatinde keyifle tüketilebilen muz yerli, en sevilen meyvelerden biri olarak ön plana çıkıyor. Besleyiciliğinin yanı sıra oldukça doyurucu bir özelliğe sahip olan yerli muzlar, çocuklardan büyüklere kadar tüm yaş grupları tarafından sevilerek tüketiliyor. ",
+      "place": "-Kostarika-",
+      "category": "Meyve",
+      "sell": "Muz",
+      "image": "https://images.migrosone.com/hemen/product/27272035/27272035-9d3d01.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Yaban Mersini",
+      "price": 30,
+      "description": "Yaban Mersini, benzersiz lezzeti ile yemeğe doyamayacağınız, şifa kaynağı bir meyve. ",
+      "place": "-Çin-",
+      "category": "Meyve",
+      "sell": "Ymersini",
+      "image": "https://images.migrosone.com/hemen/product/27400021/27400021-2c2603.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Armut Deveci",
+      "price": 30,
+      "description": "Armut Deveci lezzeti ile çok talep edilen bir armut çeşidi olarak öne çıkıyor. Tatlı olmasının yanı sıra sulu, bol lif içeren ve lezzetli bir meyve olan Deveci armudunu farklı biçimlerde tüketebilirsiniz. Soymadan ısırarak tüketebileceğiniz gibi ince dilimler haline getirip üzerine toz tarçın serperek öğün arası atıştırmalık şeklinde de yiyebilirsiniz.",
+      "place": "Kostarika",
+      "category": "Meyve",
+      "sell": "Armut",
+      "image": "https://images.migrosone.com/sanalmarket/product/27025000/armut-deveci-kg-383178-1650x1650.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sırma Doğal Maden Suyu 6x200 Ml Cam",
+      "description": "Sırma Doğal Maden Suyu, Uludağ'ın zengin mineralli topraklarından beslenerek, yer altının uygun soğukluğundan geçip yeryüzüne çıkmaktadır. Kaynağında şişelenen Sırma doğal maden suyu, insan sağlığına faydalı mineraller sunuyor.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "SırmaDogalMadenSuyu",
+      "image": "https://images.migrosone.com/hemen/product/08040900/8040900-f2d38f.jpg",
+      "price": 43.50
+    },
+    {
+      "id": 11,
+      "name": "Uludağ Doğal Maden Suyu 6X200 Ml",
+      "price": 44.90,
+      "description": "Kalsiyum, magnezyum, bikarbonat gibi mineraller açısından zengin bir yapıya sahip Uludağ Doğal Maden Suyu tüketicilerine 100 yılı aşkın süredir aynı güven ve lezzeti sunuyor. ",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "UludağMadenSuyu",
+      "image": "https://images.migrosone.com/hemen/product/08040650/08040650-1e05f1-1650x1650.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Saka Doğal Maden Suyu 6X200 Ml",
+      "price": 44.90,
+      "description": "Saka Doğal Maden Suyu, insan sağlığına faydalı mineraller sunuyor.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "SakaMadenSuyu",
+      "image": "https://images.migrosone.com/hemen/product/08040057/08040057-f616c3-1650x1650.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sırma Doğal Maden Suyu 1L Pet",
+      "price": 44.90,
+      "description": "Sırma Doğal Maden Suyu, Uludağ'ın zengin mineralli topraklarından beslenerek, yer altının uygun soğukluğundan geçip yeryüzüne çıkmaktadır. Kaynağında şişelenen Sırma doğal maden suyu, insan sağlığına faydalı mineraller sunuyor.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "SırmaMadenSuyu",
+      "image": "https://images.migrosone.com/hemen/product/08040800/08040800-eca482-1650x1650.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Uludağ Premium 6X250 Ml",
+      "price": 44.90,
+      "description": "Uludağ Premium Doğal Maden Suyu, hafif içimli özelliği ve benzersiz şık tasarımıyla tarz sahibi tüketicilerin bir numaralı tercihi!",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "UludagPremium",
+      "image": "https://images.migrosone.com/hemen/product/08040640/uludag-premium-6x250-ml-56d0fc-1650x1650.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Sırma C+ Limon Aromalı 6x200 Ml",
+      "price": 44.90,
+      "description": "Düşük kalorili Sırma C+ Vitaminli Maden Suyu Serisi, günlük vitamin ihtiyacının %100'ünü karşılarken, maden suyundan gelen doğal mineraller ile meyvelerin lezzetini bir araya getirerek bir lezzet şöleni sunuyor.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "SırmaLimonlu",
+      "image": "https://images.migrosone.com/hemen/product/08040141/8040141-f6116b.jpg"
+    },    
+    {
+      "id": 16,
+      "name": "San Pellegrino Doğal Mineralli Su 750 Ml",
+      "price": 44.90,
+      "description": "Adını kaynağından alan Doğal Mineralli Su -“Tastetefully Italian” ",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "SanPellegrinoSolo",
+      "image": "https://images.migrosone.com/hemen/product/08040925/san-pellegrino-sanpellegrino-dogal-mineralli-su-0-75-l-f28de0.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Migros Kavrulmuş Fındık İçi 150G",
+      "price": 44.90,
+      "description": "GÜNEŞTEN UZAK, SERİN VE KOKUSUZ YERDE SAKLAYINIZ",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "MKavrulmusFindik",
+      "image": "https://images.migrosone.com/hemen/product/08080097/8080097-6fd8ec.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Peyman Çitliyo Kara Şimşek Klasik 120 G",
+      "price": 44.90,
+      "description": "Yüksek demir içerir. Demir yorgunluğun ve bitkinliğin azalmasına katkıda bulunur. Yüksek fosfor içerir. Fosfor normal kemiklerin korunmasına katkıda bulunur. Yüksek magnezyum içerir. Magnezyum yorgunluğun ve bitkinliğin azalmasına katkıda bulunur.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "PeymanCitliyo",
+      "image": "https://images.migrosone.com/hemen/product/08089656/8089656-b851b8.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Peyman Nutzz Party Peynir Aromalı Mısır Çerezi 200 G",
+      "price": 44.90,
+      "description": "Tuzlu Mısır Çerezi [Mısır, Bitkisel Yağ (Palm), Tuz (%2)], Peynir Aromalı Yer Fıstığı [Yer Fıstığı, Bitkisel Yağ (Palm), Peynir Aroma Vericisi (Süt ürünü ve Gluten içerir)], Peynir Aromalı Kaplamalı Yer Fıstığı [ Yer Fıstığı, Buğday unu (Gluten), Bitkisel Yağ (Palm), Modifiye Nişasta, Şeker, Mısır Nişastası, Peynir Aroma Vericisi (Süt ürünü ve Gluten içerir), Maltodekstrin, Patates Nişastası, Tuz], Peynir Aromalı Mısır Çerezi [Mısır irmiği, Karabuğday unu (Gluten), Yulaf unu (Gluten), Çavdar unu (Gluten), Pirinç unu (Gluten)], Bitkisel yağ(Kanola), Peynir Aroma Vericisi (Süt ürünü ve Gluten içerir)].",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "PeymanNutzzParty",
+      "image": "https://images.migrosone.com/hemen/product/08079633/08079633-9e39d7.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Migros Kavrulmuş Antep Fıstığı 150 G",
+      "price": 44.90,
+      "description": "Eser miktarda badem ,fındık, yer fıstığı, ceviz, kaju fıstığı, kükürt dioksit, sülfit ve türevleri, gluten, kereviz, susam, süt ve süt ürünleri (laktoz) ile soya ve ürünleri içerebilir.",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "MigrosAntep",
+      "image": "https://images.migrosone.com/hemen/product/08080274/08080274-8df072.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Uludağ Frutti Extra Armut 250 Ml",
+      "price": 44.90,
+      "description": "Zengin mineralli doğal maden suyu ve meyve suyunun birleşiminden oluşan Uludağ Frutti Extra koruyucu içermeyen özelliği ile tarifsiz bir lezzet sunuyor! ",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "UludagArmut",
+      "image": "https://images.migrosone.com/hemen/product/08040685/08040685-da1b73.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Uludağ Frutti Extra Orman Meyveli Pet 1 L",
+      "price": 44.90,
+      "description": "Zengin mineralli doğal maden suyu ve meyve suyunun birleşiminden oluşan Uludağ Frutti Extra koruyucu içermeyen özelliği ile tarifsiz bir lezzet sunuyor! ",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "UludagOrman",
+      "image": "https://images.migrosone.com/hemen/product/08040081/08040081-36504b.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Uludağ Frutti Elma 6X200 Ml",
+      "price": 44.90,
+      "description": "Türkiye’nin ilk ve tek koruyucu içermeyen meyve aromalı maden suyu Uludağ Frutti, doğal maden suyu keyfini meyve lezzetiyle birlikte yaşamak isteyenlerin tercihi!",
+      "place": "Memleketi",
+      "category": "Yılbaşı",
+      "sell": "UludagElma",
+      "image": "https://images.migrosone.com/hemen/product/08040677/08040677-ac1c01.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Yumoş Extra Lilyum 3 x 1.440 Ml",
+      "price": 495.95,
+      "description": "Yumoş Extra’nın çok sevilen kokularına bir yenisi daha eklendi: Yumoş Extra Lilyum! Muazzam kokusuyla giysilerine yeni yıkanmış gibi kalıcı ferahlık ve efsanevi yumuşaklık sağlar. İçeriğindeki Pro-Care teknolojisi ile giysilerinizin renkleri uzun süre yeni gibi kalır.",
+      "place": "Memleketi",
+      "category": "Avantajlı Paketler",
+      "sell": "YumosExtra",
+      "image": "https://images.migrosone.com/hemen/product/30570184/30570184-fcf841.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Domestos Dağ Esintisi 3x750 Ml",
+      "price": 152.95,
+      "description": "Yoğun kıvamlı formülüyle Domestos Çamaşır Suyu Kar Beyazlığı, kireci 3 kata kadar daha uzun süre önler. Kirece karşı aktif moleküller içeren yoğun kıvamlı formülü ile suyun altında bile tutunarak lekeleri çıkarır kar beyazı temizlik sağlar.",
+      "place": "Memleketi",
+      "category": "Avantajlı Paketler",
+      "sell": "DomestosDag",
+      "image": "https://images.migrosone.com/hemen/product/30560027/30560027-63b752.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Kotex Natural Ultra Quadro Gece 14 x 2",
+      "price": 402.95,
+      "description": " Bu fiyattan satılmak üzere toplam 100 adet stok bulunmaktadır.",
+      "place": "Memleketi",
+      "category": "Avantajlı Paketler",
+      "sell": "KotexNatural",
+      "image": "https://images.migrosone.com/hemen/product/31110163/31110163-57c7b6.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Tadım Kavrulmuş Siyah Ayçekirdeği 180 G",
+      "price": 32.95,
+      "description": "Yüksek demir içerir. Demir yorgunluğun ve bitkinliğin azalmasına katkıda bulunur. Yüksek fosfor içerir. Fosfor normal kemiklerin korunmasına katkıda bulunur. Yüksek magnezyum içerir. Magnezyum yorgunluğun ve bitkinliğin azalmasına katkıda bulunur.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "TadimCekirdek",
+      "image": "https://images.migrosone.com/hemen/product/08089819/8089819-5f54d6.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Migros İç Ceviz 150 G",
+      "price": 72.50,
+      "description": "Ceviz içi. Eser miktarda fıstık,badem,fındık,yer fıstığı,kaju fıstığı,kükürt dioksit,sülfit ve türevleri,gluten ,kereviz,susam,süt ve süt ürünleri(laktoz ),soya ve ürünleri içerebilir.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "MigrosCeviz",
+      "image": "https://images.migrosone.com/hemen/product/08079827/08079827-a4c8ee.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Master Farm Çiğ İç Badem 160 G",
+      "price": 114.95,
+      "description": "Eser miktarda yer fıstığı,fındık,badem ve buğday gluteni içerebilir.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "MasterFarmBadem",
+      "image": "https://images.migrosone.com/hemen/product/08079832/08079832-d77a06.jpg"
+    },
+    {
+      "id": 30,
+      "name": "By İzzet Antep Fıstığı 200G",
+      "price": 189.95,
+      "description": "elenyum kaynağıdır. Selenyum bağışıklık sisteminin normal fonksiyonuna katkıda bulunur.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "ByİzzetAntep",
+      "image": "https://images.migrosone.com/hemen/product/08089682/08089682-6901da.jpg"
+    },    
+    {
+      "id": 31,
+      "name": "Peyman Bahçeden Gün Kurusu",
+      "price": 50.45,
+      "description": "Peyman, Bahçeden markasına ait gün kurusu ve kuru kayısı ürünüdür.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "PeymanGun",
+      "image": "https://images.migrosone.com/sanalmarket/product/08079820/08079820-786360-1650x1650.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Nestle Damak Sütlü Çikolata Kaplı Antep Fıstıklı Draje 50 G",
+      "price": 72.50,
+      "description": "Sütlü çikolata [şeker, kakao kitlesi, kakao yağı, yağsız süttozu, peyniraltı suyu tozu (süt ürünü), süt yağı, emülgatörler (ayçiçek lesitini, poligliserol polirisinoleat), tuz], antep fıstığı (%20), parlatıcı (gam arabik).",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "NestleDamakDraje",
+      "image": "https://images.migrosone.com/hemen/product/07037850/7037850-54bd65-1650x1650.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Kotex Natural Ultra Quadro Gece 14 x 2",
+      "price": 402.95,
+      "description": " Bu fiyattan satılmak üzere toplam 100 adet stok bulunmaktadır.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "KotexNatural",
+      "image": "https://images.migrosone.com/hemen/product/31110163/31110163-57c7b6.jpg"
+    },
+    {
+      "id": 34,
+      "name": "M&M's Pirinç Patlaklı Draje 36 G",
+      "price": 39.90,
+      "description": "M&M's Pirinç Patlaklı Draje, hem yetişkinlerin hem de çocukların bayılacağı enfes bir atıştırmalık! ",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "MMPirincDraje",
+      "image": "https://images.migrosone.com/hemen/product/07047474/07047474-26583d.jpg"
+    },
+    {
+      "id": 35,
+      "name": "M&M's Çikolatalı Draje 100 G",
+      "price": 79.90,
+      "description": "M&M's Çikolatalı Draje çocuklar ve büyüklerin bayıldığı bir lezzete sahiptir. Bu pakette; üstü renkli şekerleme ile kaplı, içi sütlü çikolata dolgulu drajeler vardır. Tadına doyamayacağınız bu drajeler çok da eğlencelidir.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "MMDraje",
+      "image": "https://images.migrosone.com/hemen/product/31110163/31110163-57c7b6.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Snickers Yer Fıstıklı Çikolata 50 G",
+      "price": 29.90,
+      "description": "Snickers Bar Çikolata, yer fıstıklı, karamelli ve çikolatalı lezzeti ile büyüleyicidir. Büyük küçük herkes tarafından sevilerek tüketilen Snickers doyurucudur. Hijyenik koşullarda üretilip paketlenmiştir.",
+      "place": "Memleketi",
+      "category": "Atıştırmalık",
+      "sell": "SnickersCikolata",
+      "image": "https://images.migrosone.com/hemen/product/07040020/07040020-f57ff7.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Fanta Portakal Aromalı Pet",
+      "price": 35,
+      "description": "C vitaminli Fanta C ile hem lezzetli hem de ferahlatan bir mola v",
+      "place": "Memleketi",
+      "category": "İçecek",
+      "sell": "FantaPortakal",
+      "image": "https://images.migrosone.com/hemen/product/08022000/8022000_yan-d36055.png"
+    },
+    {
+      "id": 38,
+      "name": "Coca-Cola Zero Sugar Pet 1,5 L",
+      "price": 29.90,
+      "description": "Coca-Cola Zero, klasik ve gerçek Coca-Cola tadını şekersiz şekersiz bir şekilde sunar. Yemeklerin ve atıştırmalıkların yanına çok yakışır. ",
+      "place": "Memleketi",
+      "category": "İçecek",
+      "sell": "CocaColaZero",
+      "image": "https://images.migrosone.com/hemen/product/08010701/8010701_yan-77167c.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Sprite Limon Aromalı Pet 1 L",
+      "price": 35.90,
+      "description": "Sprite limon tadıyla anında ferahlatır. Sen de aç bi’ Sprite ferahla!",
+      "place": "Memleketi",
+      "category": "İçecek",
+      "sell": "SpriteLimon",
+      "image": "https://images.migrosone.com/hemen/product/08035000/8035000_yan-485529.png"
+    },
+    {
+      "id": 40,
+      "name": "Pepsi Zero Sugar Kola Kutu 4 x 250 Ml",
+      "price": 110.50,
+      "description": "Pepsi Max, ‘Max Lezzet, Sıfır Kalori’ sloganıyla pazardaki en sevilen içeceklerden biri konumunda. Hem ferahlama anlarına hem de yemek yanına çok yakışır.",
+      "place": "Memleketi",
+      "category": "İçecek",
+      "sell": "PepsiZeroKutu",
+      "image": "https://images.migrosone.com/hemen/product/08019106/8019106-a32d23.jpg"
+    },    
+    {
+      "id": 41,
+      "name": "Sprite Limon Aromalı Gazoz Kutu 6x250 Ml",
+      "price": 164.30,
+      "description": "Sprite limon tadıyla anında ferahlatır. Sen de aç bi’ Sprite ferahla!",
+      "place": "Memleketi",
+      "category": "İçecek",
+      "sell": "SnickersCikolata",
+      "image": "https://images.migrosone.com/hemen/product/08035006/08035006_1-9358bb.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Yılbaşı",
+      "image": "https://images.migrosone.com/hemen/custom/yilbasi-badge2-d20d9e6c.jpg",
+      "goesto": "/hemen/yilbasi"
+    },
+    {
+      "id": 2,
+      "name": "Avantajlı Paketler",
+      "image": "https://images.migrosone.com/hemen/custom/bundle-ece22146.jpg",
+      "goesto": "/hemen/avantaj"
+    },
+    {
+      "id": 3,
+      "name": "Atıştırmalık",
+      "image": "https://images.migrosone.com/hemen/custom/atistirmalik-ad0a2e0e.jpg",
+      "goesto": "/hemen/atistirma"
+    },
+    {
+      "id": 4,
+      "name": "İçecek",
+      "image": "https://images.migrosone.com/hemen/custom/icecek1-2385a9f7.jpg",
+      "goesto": "/hemen/icecek"
+    },
+    {
+      "id": 5,
+      "name": "Dondurma",
+      "image": "https://images.migrosone.com/hemen/custom/dondurma-20a84bd8.jpg",
+      "goesto": "/heme/dondurma"
+    },
+    {
+      "id": 6,
+      "name": "Dizi Keyfi",
+      "image": "https://images.migrosone.com/hemen/custom/330_330_hemen_ikon_son-2ba52cfb.png",
+      "goesto": "/hemen/keyif"
+    },
+    {
+      "id": 7,
+      "name": "Meyve & Sebze",
+      "image": "https://images.migrosone.com/hemen/custom/sebze-meyve-3c886d9a.jpg",
+      "goesto": "/hemen/meyve_sebze"
+    },
+    {
+      "id": 8,
+      "name": "Dondurulmuş Gıda",
+      "image": "https://images.migrosone.com/hemen/custom/dondurulmus-c7cebd72.jpg",
+      "goesto": "/hemen/dondurulmus"
+    },
+    {
+      "id": 9,
+      "name": "Fırın",
+      "image": "https://images.migrosone.com/hemen/custom/firin-f3c6e35c.jpg",
+      "goesto": "/hemen/firin"
+    },
+    {
+      "id": 10,
+      "name": "Süt & Kahvaltılık",
+      "image": "https://images.migrosone.com/hemen/custom/kahvalti-40acba2a.jpg",
+      "goesto": "/hemen/süt_kahvaltılık"
+    },
+    {
+      "id": 11,
+      "name": "Hazır Yemek & Meze",
+      "image": "https://images.migrosone.com/hemen/custom/hazir-yemek-157b9628.jpg",
+      "goesto": "/hemen/hazir_yemek_meze"
+    },
+    {
+      "id": 12,
+      "name": "Özel Beslenme",
+      "image": "https://images.migrosone.com/hemen/custom/saglikli-8e359a02.jpg",
+      "goesto": "/hemen/ozel_beslenme"
+    },
+    {
+      "id": 13,
+      "name": "Et & Tavuk & Balık",
+      "image": "https://images.migrosone.com/hemen/custom/et-tavuk-balik-f05d85c9.jpg",
+      "goesto": "/hemen/et_tavuk_balık"
+    },
+    {
+      "id": 14,
+      "name": "Temel Gıda",
+      "image": "https://images.migrosone.com/hemen/custom/temel-gida-eed416c8.jpg",
+      "goesto": "/hemen/temel_gıda"
+    },
+    {
+      "id": 15,
+      "name": "Bebek",
+      "image": "https://images.migrosone.com/hemen/custom/bebekkk-2c3bfa2f.jpg",
+      "goesto": "/hemen/bebek"
+    },
+    {
+      "id": 16,
+      "name": "Evcil Hayvan",
+      "image": "https://images.migrosone.com/hemen/custom/evcil-hayvan-61e87a6a.jpg",
+      "goesto": "/hemen/evcil_hayvan"
+    },
+    {
+      "id": 17,
+      "name": "Temizlik & Ev Gereçleri",
+      "image": "https://images.migrosone.com/hemen/custom/temizlik-6d3a083e.jpg",
+      "goesto": "/hemen/temizlik_ev_gereçleri"
+    },
+    {
+      "id": 18,
+      "name": "Kişisel Bakım & Kozmetik",
+      "image": "https://images.migrosone.com/hemen/custom/kisisel-bakim-ab66bbe6.jpg",
+      "goesto": "/hemen/kisisel_bakim_kozmetik"
+    },
+    {
+      "id": 19,
+      "name": "Cinsel Sağlık",
+      "image": "https://images.migrosone.com/hemen/custom/cinsel-saglik-685f8493.jpg",
+      "goesto": "/hemen/cinsel_saglik"
+    },
+    {
+      "id": 20,
+      "name": "Teknoloji",
+      "image": "https://images.migrosone.com/hemen/custom/teknoloji-0738edb4.jpg",
+      "goesto": "/hemen/teknoloji"
+    },
+    {
+      "id": 21,
+      "name": "Ev Yaşam",
+      "image": "https://images.migrosone.com/hemen/custom/ev-gerecleri-dc10d869.jpg",
+      "goesto": "/hemen/ev_yasam"
+    },
+    {
+      "id": 21,
+      "name": "Hobi & Oyun",
+      "image": "https://images.migrosone.com/hemen/custom/hobi-c519e8b0.jpg",
+      "goesto": "/hemen/hobi_oyun"
+    }
+  ]
+}

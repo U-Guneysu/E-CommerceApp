@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+
+.custom-color {
+  color: rgb(255, 194, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  font-family: "Arial", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Brand */
+.brand-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Menü */
+.menu-container ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 2rem;
+}
+
+.menu-container .nav-link {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover efekti */
+.menu-container .nav-link:hover {
+  color: #ff9800;
+}
+
+/* Aktif link */
+.menu-container .nav-link.active {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+/* Navbar arka plan rengi */
+.navbar.bg-black {
+  padding: 10px;
+  background-color: #212529; /* Siyah ton */
+}
+
+.bang{
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titleprice{
+  min-height: 50px; /* Tüm başlıklar aynı hizaya gelir */
+  font-size: 16px;
+}
+
+.textprice{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+  min-height: 30px; /* Fiyatların hizalanması için sabit yükseklik */
+}
+
+.detailcontainer{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6{
+  flex: 1;
+  padding: 10px;
+}
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h2{
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3{
+  color: #e74c3c
+}
+
+.btn-success{
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success:hover{
+  background-color: #218838;
+}
+
+.productinfo{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.zooming-picture{
+  height: 500px;
+  width: 500px;
+}
+
+.zooming-picture img{
+  height: 500px;
+  width: 500px;
+  transform: scale(1);
+  padding: 100;
+}
+
+.zooming-picture img:hover{
+  transform: scale(1.5);
+}
+
+.custom-width{
+  width: 200px;
 }
